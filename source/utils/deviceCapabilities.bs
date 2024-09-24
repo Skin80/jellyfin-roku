@@ -526,10 +526,10 @@ function getCodecProfiles() as object
     end for
 
     ' HDR SUPPORT
-    h264VideoRangeTypes = "SDR|"DOVIWithSDR"
-    hevcVideoRangeTypes = "SDR|"DOVIWithSDR"
-    vp9VideoRangeTypes = "SDR|"DOVIWithSDR"
-    av1VideoRangeTypes = "SDR|"DOVIWithSDR"
+    h264VideoRangeTypes = "SDR|DOVIWithSDR"
+    hevcVideoRangeTypes = "SDR|DOVIWithSDR"
+    vp9VideoRangeTypes = "SDR|DOVIWithSDR"
+    av1VideoRangeTypes = "SDR|DOVIWithSDR"
 
     dp = di.GetDisplayProperties()
     if dp.Hdr10
